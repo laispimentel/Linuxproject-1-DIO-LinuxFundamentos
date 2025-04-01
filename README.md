@@ -21,7 +21,7 @@ Criação de diretórios:
 
 /sec
 
-Criação de grupos:
+## Criação de grupos:
 
 GRP_ADM (Administrativo)
 
@@ -29,7 +29,7 @@ GRP_VEN (Vendas)
 
 GRP_SEC (Segurança)
 
-Criação de usuários e associação aos grupos:
+## Criação de usuários e associação aos grupos:
 
 GRP_ADM: carlos, maria, joão
 
@@ -37,16 +37,16 @@ GRP_VEN: debora, sebastiana, roberto
 
 GRP_SEC: josefina, amanda, rogerio
 
-Definição de permissões:
+## Definição de permissões:
 
 Diretórios /adm, /ven e /sec são acessíveis apenas para seus respectivos grupos
 
 Diretório /publico pode ser acessado por todos os usuários
 
-🚀 Como Executar
+## 🚀 Como Executar
 Clone o repositório ou copie o script para um ambiente Linux
 
-Dê permissão de execução ao script:
+### Dê permissão de execução ao script:
 
 bash
 Copiar
@@ -63,12 +63,12 @@ O script utiliza openssl para gerar senhas criptografadas. Caso necessário, alt
 
 Certifique-se de rodar o script como root para evitar erros de permissão.
 
-📌 Tecnologias Utilizadas
+## 📌 Tecnologias Utilizadas
 Shell Script
 
 Comandos básicos do Linux (mkdir, groupadd, useradd, chmod, chown)
 
-📄 Licença
+## 📄 Licença
 Este projeto foi desenvolvido como parte do Bootcamp da DIO e está disponível para uso e modificação conforme necessário. 🚀
 
 Se precisar de alguma modificação ou quiser personalizar mais, me avise! 🚀
